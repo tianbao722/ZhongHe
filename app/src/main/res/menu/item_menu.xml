@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/item4"
+            android:icon="@drawable/i"
+            android:title="开启消息提醒" />
+    </group>
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/yy"
+            android:title="我的音乐" />
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/sz"
+            android:title="我的设置" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/tu"
+            android:title="我的图片" />
+    </group>
+    <group android:id="@+id/group5">
+        <item
+            android:id="@+id/item5"
+            android:title="联系我们" />
+    </group>
+
+
+</menu>

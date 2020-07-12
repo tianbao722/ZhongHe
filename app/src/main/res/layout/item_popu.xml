@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FF7FDD"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <TextView
+        android:id="@+id/wx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微信"
+        android:textSize="20sp"
+        android:textColor="#1F6326"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <TextView
+        android:id="@+id/wz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="王者好友"
+        android:textSize="20sp"
+        android:textColor="#97006F"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <TextView
+        android:id="@+id/cj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="吃鸡好友"
+        android:textSize="20sp"
+        android:textColor="#1208FF"
+        />
+</LinearLayout>

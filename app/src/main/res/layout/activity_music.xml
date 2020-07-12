@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhonghe.com.example.Activity.MusicActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/btn_zanting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/btn_jixu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="继续"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
